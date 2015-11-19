@@ -1,0 +1,10 @@
+storage
+compile-cache
+dev
+.npm
+.node-gyp
+
+# [AM] My ignores
+/.apm
+/projects.cson
+/packages

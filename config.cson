@@ -1,0 +1,29 @@
+"*":
+  "exception-reporting":
+    userId: "634de3f4-c629-9a54-7e9c-397d048b058b"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "unity-ui"
+      "one-dark-syntax"
+    ]
+  editor:
+    invisibles: {}
+    showInvisibles: true
+    tabLength: 4
+    showIndentGuide: true
+    scrollSensitivity: 20
+    fontSize: 12
+    fontFamily: "DejaVu Sans Mono"
+    softTabs: false
+  linter: {}
+  "atom-beautify":
+    _analyticsUserId: "d98743bd-0025-4db9-a279-6713511834b3"
+  "fuzzy-finder": {}
+  "tree-view":
+    hideIgnoredNames: true
+".source.yaml":
+  editor:
+    softTabs: true
+    tabLength: 2
