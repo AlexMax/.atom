@@ -1,28 +1,36 @@
 "*":
-  "exception-reporting":
-    userId: "634de3f4-c629-9a54-7e9c-397d048b058b"
-  welcome:
-    showOnStartup: false
+  "atom-beautify":
+    _analyticsUserId: "d98743bd-0025-4db9-a279-6713511834b3"
   core:
+    customFileTypes:
+      "text.html.twig": [
+        "tpl"
+      ]
     themes: [
       "unity-ui"
       "one-dark-syntax"
     ]
   editor:
-    invisibles: {}
-    showInvisibles: true
-    tabLength: 4
-    showIndentGuide: true
-    scrollSensitivity: 20
+    fontFamily: "Source Code Pro"
     fontSize: 12
-    fontFamily: "DejaVu Sans Mono"
+    invisibles: {}
+    lineHeight: 1.1875
+    scrollPastEnd: true
+    scrollSensitivity: 20
+    showIndentGuide: true
+    showInvisibles: true
     softTabs: false
-  linter: {}
-  "atom-beautify":
-    _analyticsUserId: "d98743bd-0025-4db9-a279-6713511834b3"
+    tabLength: 4
+  "exception-reporting":
+    userId: "634de3f4-c629-9a54-7e9c-397d048b058b"
   "fuzzy-finder": {}
+  linter: {}
+  "linter-php":
+    executablePath: "/usr/local/bin/php"
   "tree-view":
     hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
 ".source.yaml":
   editor:
     softTabs: true
