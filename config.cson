@@ -6,6 +6,9 @@
       "text.html.twig": [
         "tpl"
       ]
+    disabledPackages: [
+      "go-plus"
+    ]
     themes: [
       "unity-ui"
       "one-dark-syntax"

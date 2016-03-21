@@ -14,3 +14,9 @@ if process.platform == 'darwin'
 	atom.config.set('core.themes', ['unity-ui', 'one-dark-syntax'])
 else
 	atom.config.set('core.themes', ['one-dark-ui', 'one-dark-syntax'])
+
+try
+	require('child_process').execSync('which go')
+	atom.packages.enablePackage('go-plus')
+catch error
+	atom.packages.disablePackage('go-plus')
