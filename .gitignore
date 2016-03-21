@@ -1,8 +1,9 @@
-storage
+blob-store
 compile-cache
 dev
-.npm
+storage
 .node-gyp
+.npm
 
 # [AM] My ignores
 /.apm
